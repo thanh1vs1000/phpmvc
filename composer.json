@@ -1,0 +1,20 @@
+{
+    "name": "khang/mvc_composer",
+    "type": "no",
+    "authors": [
+        {
+            "name": "khang",
+            "email": "khang@gmail.com"
+        }
+    ],
+    "autoload": {
+    	"psr-4": {
+    		"App\\": "app/"
+    	}
+    },
+    "require": {
+        "fzaninotto/faker": "^1.8",
+        "phpmailer/phpmailer": "^6.1",
+        "jenssegers/blade": "^1.2"
+    }
+}
