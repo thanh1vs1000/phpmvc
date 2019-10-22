@@ -33,7 +33,7 @@
 					<div class="form-group">
 						<label>Tên Danh Mục</label>
 						<div class="form-group has-success">
-							<input class="form-control" type="text" name="name" value="">
+							<<input class="form-control" type="text" name="cat_name" value="<?php echo $model->cate_name ?>">
 						</div>
 						<label>Mô tả</label>
 						<div class="form-group has-success">
